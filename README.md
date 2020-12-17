@@ -1,0 +1,1 @@
+# TheOdinproject_ruby_stockpicker

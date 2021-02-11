@@ -12,7 +12,9 @@ def stock_picker(stocks)
         end
     end
 
-    p best_days
+    puts "The best day to buy stocks are day(s) with price index: #{best_days[0]}"
+    puts
+    puts "The best day to sell stokes are day(s) with price index: #{best_days[1]}"
 end
 
-stock_picker([17,3,6,9,15,8,6,1,10])
+stock_picker([50,50,6,25,15,30,6,2,10])
